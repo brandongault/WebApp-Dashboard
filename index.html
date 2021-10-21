@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>WebApp Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!--Dashboard Header -->
@@ -117,11 +118,11 @@
         </div>
       </section>
 
-      <section>
+      <section class="message">
         <h3>Message User</h3>
         <form class="widget-container">
           <input type="text" placeholder="Search for User" class="form-field" id="userField">
-          <textarea placeholder="Message for User" class="form-field" id="messageField"</textarea>
+          <textarea placeholder="Message for User" class="form-area" id="messageField"></textarea>
           <button>Send</button>
         </form>
       </section>
@@ -140,7 +141,7 @@
                 <a></a>
               </span>
           </label>
-          
+
         <select class="form-field" id="timezone">
           <option disabled selected>Select a Timezone</option>
           <option>Eastern Standard Time</option>
