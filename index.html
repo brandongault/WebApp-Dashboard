@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>WebApp Dashboard</title>
-    <link rel="stylesheet" href="web_app_dashboard_v3.2\css\styles.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="web_app_dashboard_v3.2\css\styles.css">
   </head>
   <body class="grid-container">
-    <!--Dashboard Header -->
+    <!-------------------------------------------------
+    ------------ DASHBOARD HEADER ---------------------
+    --------------------------------------------------->
     <header class="header">
-      <h1 class="header-title">WebApp</h1>
+      <h1 class="header-title">WebA  pp</h1>
           <div class="header-info">
             <div class="svg-container">
               <svg class="icon-bell" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.033 122.88">
@@ -19,7 +22,7 @@
             <div class="header-profile">
               <img class="profile-img"
                 src="web_app_dashboard_v3.2\images\member-1.jpg"
-                alt="Student's profile picture"/>
+                alt="Student's profile picture">
               <p class="header-name">Student Name</p>
             </div>
 
@@ -50,158 +53,7 @@
       </div>
     </header>
 
-    <!-- Navigation Menu -->
-    <nav>
-      <a></a>
-        <img>
-    </nav>
 
-    <!-- Grid Box with all the widgets -->
-    <main>
-      <section class="traffic">
-        <div class="traffic-header">
-          <h3>Traffic</h3>
-          <ul class="traffic-nav">
-            <li class="traffic-nav-link">Hourly</li>
-            <li class="traffic-nav-link">Daily</li>
-            <li class="traffic-nav-link active">Weekly</li>
-            <li class="traffic-nav-link">Monthly</li>
-          </ul>
-        </div>
-        <div class="widget-container-full">
-          <!-- element line graph will attach to -->
-          <canvas id ="traffic-chart"></canvas>
-        </div>
-      </section>
-          <!-- bar graph -->
-      <section class="daily">
-        <h3>Daily Traffic</h3
-          <div class="widget-container-half">
-            <!-- element bar graph will attach to -->
-            <canvas id="daily-chart"></canvas>
-          </div>
-      </section>
-
-      <section class="social-container">
-        <div class="facebook-image">
-          <!-- inline SVG -->
-        </div>
-        <div class="facebook-text">
-          <p>Facebook</p>
-          <p>10,320</p>
-        </div>
-
-        <div class="instagram-image">
-          <!-- inline SVG -->
-        </div>
-        <div class="instragram-text">
-          <p>Instagram</p>
-          <p>16,445</p>
-        </div>
-
-        <div class="twitter-image">
-          <!-- inline SVG -->
-        </div>
-        <div class="twitter-text">
-          <p>Twitter</p>
-          <p>22,189</p>
-        </div>
-      </section>
-
-      <section class="members">
-        <h3>New Members</h3>
-
-        <div class="members-container">
-          <img src="web_app_dashboard_v3.2\images\member-1.jpg">
-          <div class="members-text">
-            <p>Victoria Chambers</p>
-            <a href="#">victoriachambers80@example.com</a>
-          </div>
-          <p>10/15/20</p>
-        </div>
-
-        <div class="members-container">
-          <img src="web_app_dashboard_v3.2\images\member-2.jpg">
-          <div class="members-text">
-            <p>Dale Byrd</p>
-            <a href="#">dalebyrd52@example.com</a>
-          </div>
-          <p>10/15/20</p>
-        </div>
-
-        <div class="members-container">
-          <img src="web_app_dashboard_v3.2\images\member-3.jpg">
-          <div class="members-text">
-            <p>Dawn Wood</p>
-            <a href="#">dawnwood16@example.com</a>
-          </div>
-          <p>10/15/20</p>
-        </div>
-
-        <div class="members-container">
-          <img src="web_app_dashboard_v3.2\images\member-4.jpg">
-          <div class="members-text">
-            <p>Dan Oliver</p>
-            <a href="#">danoliver82@example.com</a>
-          </div>
-          <p>10/15/20</p>
-        </div>
-      </section>
-
-      <section class="message">
-        <h3>Message User</h3>
-        <form class="widget-container">
-          <input type="text" placeholder="Search for User" class="form-field" id="userField">
-          <textarea placeholder="Message for User" class="form-area" id="messageField"></textarea>
-          <button>Send</button>
-        </form>
-      </section>
-
-      <section>
-        <h3>Settings</h3>
-
-          <label class="switch-light switch-ios" onclick="">
-            <input type="checkbox">
-              <strong>
-                Wireless
-              </strong>
-              <span>
-                <span>Off</span>
-                <span>On</span>
-                <a></a>
-              </span>
-          </label>
-
-        <select class="form-field" id="timezone">
-          <option disabled selected>Select a Timezone</option>
-          <option>Eastern Standard Time</option>
-          <option>Western Standard Time</option>
-          <option>Southern Standard Time</option>
-          <option>Northern Standard Time </option>
-        </select
-        <div class="settings-button">
-          <button class="button-primary" id="save">Save</button>
-          <button class="button-disabled" id="cancel">Cancel</button>
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
 
   </body>
 </html>
