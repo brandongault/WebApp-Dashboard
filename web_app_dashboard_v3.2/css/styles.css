@@ -173,14 +173,53 @@ width: 20px;
 
 @media (min-width: 768px) {
 
-}
-
 
 /*================== BASE =====================*/
 
-
-
 /*================== HEADER ===================*/
+.header-title {
+  font-size: 25px;
+  display: block;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.icon-bell {
+  display: block;
+  margin-left: 30px;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+
+.profile-img {
+  display: block;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 180px;
+  height: 60px;
+  width: auto;
+}
+
+.header-name {
+  font-size: 18px;
+  display: block;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+
+
 
 /*================== NAV ======================*/
 
@@ -193,15 +232,55 @@ width: 20px;
 /*================== MESSAGE FORM =============*/
 
 /*================== SETTINGS SECTION =========*/
+}
+
+
 
 @media (min-width: 1024px) {
 
-}
-
 /*================== BASE =====================*/
 
 /*================== HEADER ===================*/
+.header-title {
+  font-size: 40px;
+  display: block;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
+
+.icon-bell {
+  display: block;
+  margin-left: 30px;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+
+.profile-img {
+  display: block;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 180px;
+  height: 80px;
+  width: auto;
+}
+
+.header-name {
+  font-size: 22px;
+  display: block;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
 /*================== NAV ======================*/
 
 /*================== MAIN =====================*/
@@ -214,6 +293,7 @@ width: 20px;
 
 /*================== SETTINGS SECTION =========*/
 
+}
 
 
 
