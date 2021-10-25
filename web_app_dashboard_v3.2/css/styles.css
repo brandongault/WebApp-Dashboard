@@ -96,50 +96,39 @@ body {
   width: 23px;
 }
 
-.navbar-icons {
-
-}
-
-.icon-home {
-height: 20px;
-width: 20px;
-}
-
-.icon-chart {
-height: 20px;
-width: 20px;
-}
-
-.icon-members {
-height: 20px;
-width: 20px;
-}
-
-.icon-settings {
-height: 20px;
-width: 20px;
-}
-
-.main-header {
-
-}
-
-.headline {
-
-}
-
-.main-header-search {
-
-}
-
-.alert {
-
-}
-
 
 /* ===============================================
 ====================== NAV =======================
 =============================================== */
+
+.navbar {
+  width: 100%;
+  background-color: #4c4c74;
+}
+
+.navbar-icons {
+  display: flex;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icon-home {
+  margin-left: 80px;
+}
+
+.icon-chart {
+  margin-left: 65px;
+}
+
+.icon-members {
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.icon-settings {
+  margin-right: 80px;
+}
 
 
 /* ===============================================
@@ -218,10 +207,48 @@ width: 20px;
   margin-bottom: 30px;
 }
 
-
-
-
 /*================== NAV ======================*/
+
+.navbar {
+  background-color: #4c4c74;
+  width: 80px;
+  height: 1000px;
+}
+
+.navbar-icons {
+  margin: 0px;
+  width: 100px;
+  display: block;
+}
+
+.icon-home {
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.icon-chart {
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.icon-members {
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.icon-settings {
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
 
 /*================== MAIN =====================*/
 
@@ -282,6 +309,46 @@ width: 20px;
   margin-bottom: 0px;
 }
 /*================== NAV ======================*/
+
+.navbar {
+  background-color: #4c4c74;
+  width: 110px;
+  height: 1000px;
+}
+
+.navbar-icons {
+  margin: 0px;
+  width: 100px;
+  display: block;
+}
+
+.icon-home {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.icon-chart {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.icon-members {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.icon-settings {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
 
 /*================== MAIN =====================*/
 
