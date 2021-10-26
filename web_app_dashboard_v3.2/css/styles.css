@@ -131,6 +131,22 @@ body {
 ====================== MAIN =======================
 =============================================== */
 
+.main-header {
+   display: flex;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 0px;
+ }
+ .headline {
+   flex-basis: 30px;
+   flex-grow: 30px;
+   font-size: 20px;
+   font-weight:550;
+ }
+ .main-header-search {
+   background-color: #F8F4F4;
+   flex-grow: 3px;
+ }
 
 /* ===============================================
 ================= GRAPHS SECTION =================
@@ -252,6 +268,25 @@ body {
 
 
   /*================== MAIN =====================*/
+
+h3 {
+
+}
+
+  .main-header {
+
+  }
+
+  .headline {
+
+  }
+
+  .main-header-search {
+
+  }
+
+
+
 
   /*================== GRAPHS SECTION ===========*/
 
