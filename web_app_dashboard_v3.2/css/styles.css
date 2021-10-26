@@ -62,10 +62,6 @@ body {
   margin-bottom: 30px;
 }
 
-.svg-container {
-
-}
-
 .profile-img {
   display: block;
   margin-left: 15px;
@@ -161,107 +157,110 @@ body {
 =============================================== */
 
 @media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 55px 1fr;
+    grid-template-areas:
+        "header header"
+        "navigation main";
+  }
+
+  /*================== BASE =====================*/
+
+  /*================== HEADER ===================*/
+  .header-title {
+    font-size: 25px;
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
 
-/*================== BASE =====================*/
+  .icon-bell {
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 30px;
+  }
 
-/*================== HEADER ===================*/
-.header-title {
-  font-size: 25px;
-  display: block;
-  margin-left: 20px;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+  .profile-img {
+    display: block;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 180px;
+    height: 60px;
+    width: auto;
+  }
+
+  .header-name {
+    font-size: 18px;
+    display: block;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+
+  /*================== NAV ======================*/
+
+  .navbar {
+    background-color: #4c4c74;
+    width: 80px;
+    height: 1000px;
+  }
+
+  .navbar-icons {
+    margin: 0px;
+    width: 100px;
+    display: block;
+  }
+
+  .icon-home {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  .icon-chart {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  .icon-members {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+  .icon-settings {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+
+  /*================== MAIN =====================*/
+
+  /*================== GRAPHS SECTION ===========*/
+
+  /*================== MEMBERS SECTION ==========*/
+
+  /*================== MESSAGE FORM =============*/
+
+  /*================== SETTINGS SECTION =========*/
 }
-
-
-.icon-bell {
-  display: block;
-  margin-left: 30px;
-  margin-right: auto;
-  margin-top: 35px;
-  margin-bottom: 30px;
-  height: 30px;
-  width: 30px;
-}
-
-
-.profile-img {
-  display: block;
-  margin-left: 15px;
-  margin-right: 10px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  border-radius: 180px;
-  height: 60px;
-  width: auto;
-}
-
-.header-name {
-  font-size: 18px;
-  display: block;
-  margin-left: 0px;
-  margin-right: 5px;
-  margin-top: 35px;
-  margin-bottom: 30px;
-}
-
-/*================== NAV ======================*/
-
-.navbar {
-  background-color: #4c4c74;
-  width: 80px;
-  height: 1000px;
-}
-
-.navbar-icons {
-  margin: 0px;
-  width: 100px;
-  display: block;
-}
-
-.icon-home {
-  width: 30px;
-  height: 30px;
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-.icon-chart {
-  width: 30px;
-  height: 30px;
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-.icon-members {
-  width: 30px;
-  height: 30px;
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-.icon-settings {
-  width: 30px;
-  height: 30px;
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-
-/*================== MAIN =====================*/
-
-/*================== GRAPHS SECTION ===========*/
-
-/*================== MEMBERS SECTION ==========*/
-
-/*================== MESSAGE FORM =============*/
-
-/*================== SETTINGS SECTION =========*/
-}
-
-
 
 @media (min-width: 1024px) {
 
