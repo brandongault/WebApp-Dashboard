@@ -28,7 +28,6 @@
   justify-content: space-around;
   background-color: #7874c4;
   color:white;
-  height: 7vh;
 }
 
 .navigaton {
@@ -52,10 +51,12 @@
 =============================================== */
 
 .header-title {
-  font-size: 20px;
+  font-size: 25px;
   align-self: center;
   margin-right: auto;
   margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .profile-img {
@@ -89,29 +90,37 @@
 
 .navbar {
   background-color: #4c4c74;
-  display: flex;
   justify-content: center;
 }
 
 .navbar-icons {
-  height: auto;
-  width: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
 }
 
 .icon-home {
-
+  height: 30px;
+  width: auto;
+  margin-left: 20px;
 }
 
 .icon-chart {
+  height: 30px;
+  width: auto;
 
 }
 
 .icon-members {
+  height: 30px;
+  width: auto;
 
 }
 
 .icon-settings {
-
+  height: 30px;
+  width: auto;
+  margin-right: 20px;
 }
 
 
