@@ -128,21 +128,24 @@
 ====================== MAIN =======================
 ===============================================*/
 .main-header {
-  display: none;  MAKE SURE TO CHANGE THIS TO FLEX
-  height: 50px;
-  align-items: center;
+  display: flex;
 }
 
 .headline {
   flex-basis: 10%;
   font-size: 20px;
-  font-weight: 550;
+  margin: 10px;
+  align-self: center;
 }
 
-.main-header-search {
-  background-color: red;
+.tab {
+  justify-content: space-around;
+  background-color: #eaeaea;
+  border: solid #C7c7c7 1px;
+  opacity: 70%;
   height: 50px;
   flex-grow: 1;
+  margin-left: 5px;
 }
 /* ===============================================
 ================= GRAPHS SECTION =================
