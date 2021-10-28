@@ -76,6 +76,11 @@
   height: 20px;
   width: auto;
   margin-left: 10px;
+  transition: transform .2s;
+}
+
+.icon-bell:hover {
+  transform: scale(1.2);
 }
 
 .header-name {
@@ -196,14 +201,6 @@
   background-color: #82c98f;
   border-radius: 50px;
   color:white;
-}
-
-.widget-container-full {
-
-}
-
-#traffic-chart {
-
 }
 
 /* ===============================================
