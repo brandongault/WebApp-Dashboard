@@ -48,16 +48,47 @@
     ------------------------ MAIN ---------------------
     --------------------------------------------------->
 
-        <!-------------------------------------------------
-        ------------ DASHBOARD ----------------------------
-        --------------------------------------------------->
+        <!------------------ DASHBOARD -------------------->
     <div class="main-header">
       <h3 class="headline">Dashboard</h3>
       <div class="tab"></div>
     </div>
-    <div class="alert" id="alert">
+      <!-- Alert Banner -->
+    <div class="alert-banner" id="alert">
+      <p>Alert: You have unread messages x</p>
       <!-- JS will insert alert here -->
     </div>
+
+    <!-- Grid Box with all the widgets -->
+  <main>
+    <section class="traffic">
+      <div class="traffic-header">
+        <h3>TRAFFIC</h3>
+          <ul class="traffic-nav">
+            <li class="traffic-nav-link-active">Hourly</li>
+            <li class="traffic-nav-link">Daily</li>
+            <li class="traffic-nav-link">Weekly</li>
+            <li class="traffic-nav-link">Monthly</li>
+          </ul>
+      </div>
+      <div class="widget-container-full">
+        <!-- element line graph will attach to -->
+        <canvas id ="traffic-chart"></canvas>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   </body>
