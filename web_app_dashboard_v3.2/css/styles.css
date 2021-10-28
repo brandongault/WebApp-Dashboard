@@ -148,16 +148,18 @@
   margin-left: 5px;
 }
 
-.alert-banner p {
+.alert-banner {
   background-color: #7874c4;
   color: white;
-  margin: 15px;
+  font-size: 15px;
+  margin: 10px;
   border-radius: 5px;
-  padding: 10px;
+  padding: auto;
+  display: flex;
 }
 
-#alert {
-
+.alert-banner-close {
+  margin-left: 40px;
 }
 
 /* ===============================================
@@ -183,7 +185,7 @@
 
 .traffic-nav li {
   padding: 10px;
-  font-size: 17px;
+  font-size: px;
 }
 
 .traffic-nav-link {
