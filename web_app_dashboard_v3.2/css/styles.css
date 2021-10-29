@@ -377,7 +377,7 @@ textarea {
   align-self: center;
   margin-bottom: 20px;
   border: solid #C7c7c7 1px;
-  font-size: 15px
+  font-size: 15px;
 }
 
 input::placeholder,
@@ -408,6 +408,28 @@ textarea::placeholder {
 /* ===============================================
 ================ SETTINGS SECTION ================
 =============================================== */
+.settings {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.button1 {
+  width: 30%;
+}
+
+.form-field {
+  height: 50px;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  width: 95%;
+  align-self: center;
+  margin-bottom: 20px;
+  border: solid #C7c7c7 1px;
+  font-size: 15px;
+}
 
 
 /* ===============================================
