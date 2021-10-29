@@ -5,6 +5,7 @@
     <title>WebApp Dashboard</title>
     <link rel="stylesheet" href="web_app_dashboard_v3.2\css\normalize.css">
     <link rel="stylesheet" href="web_app_dashboard_v3.2\css\styles.css">
+    <link rel="stylesheet" href="web_app_dashboard_v3.2\css\toggle-switch.css.css">
   </head>
   <body class="grid-container">
     <!-------------------------------------------------
@@ -221,8 +222,6 @@
 
 </section>
 
-
-
 <!------------------ MESSAGING -------------------->
     <section class="message">
       <h3><strong>MESSAGE USER</strong></h3>
@@ -230,11 +229,58 @@
         <form class="widget-container">
           <input type="text" placeholder="Search for User" class="form-field" id="userField">
           <textarea placeholder="Message for User" class="form-area" id="messageField"></textarea>
-          <button class="button-primary" id="send">Send</button>
+          <button class="button-primary" id="send">SEND</button>
         </form>
     </section>
 
-    <section>
+<!----------------------SETTINGS--------------------->
+<section class="settings">
+  <h3><strong>SETTINGS</strong></h3>
+
+<!--------BUTTON 1---------->
+    <label class="switch-light switch-ios" onclick="">
+      <input type="checkbox">
+        <p>Send Email Notifications</p>
+        <span>
+          <span>Off</span>
+          <span>On</span>
+          <a></a>
+        </span>
+    </label>
+
+<!----------BUTTON 2------------>
+    <label class="switch-light switch-ios" onclick="">
+      <input type="checkbox">
+        <p>Set Profile to Public</p>
+        <span>
+          <span>Off</span>
+          <span>On</span>
+          <a></a>
+        </span>
+    </label>
+
+<!----------TIMEZONE------------>
+  <select class="form-field" id="timezone">
+    <option disabled selected>Select a Timezone</option>
+    <option>Eastern Standard Time</option>
+    <option>Western Standard Time</option>
+    <option>Southern Standard Time</option>
+    <option>Northern Standard Time </option>
+  </select
+
+  <!----------SAVE/CANCEL----------->
+
+  <div class="settings-button">
+    <button class="button-primary" id="save">Save</button>
+    <button class="button-disabled" id="cancel">Cancel</button>
+  </div>
+</section>
+
+
+
+
+
+
 
 
 
