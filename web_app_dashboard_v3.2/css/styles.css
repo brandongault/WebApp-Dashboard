@@ -175,7 +175,8 @@
 .traffic-header h3,
 .daily h3,
 .mobile h3,
-.social-container h3 {
+.social-container h3,
+.message h3 {
   font-size: 15px;
   margin: 10px;
 }
@@ -282,6 +283,11 @@ svg {
   text-align: center;
 }
 
+.member-4 {
+  border: none;
+  margin-bottom: -5px;
+}
+
  .member-date {
   margin-bottom: 15px;
 }
@@ -299,6 +305,48 @@ svg {
 .members-text a {
   color: #7874c4;
 }
+
+/* ===============================================
+================= RECENT ACTIVITY ===================
+=============================================== */
+.recent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recent h3 {
+  border-top: solid #C7c7c7 1px;
+  padding-top: 10px;
+  width: 100%;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.recent-1,
+.recent-2,
+.recent-3,
+.recent-4 {
+  justify-content: space-around;
+  flex-grow: 1;
+  margin:10px;
+  border-bottom: solid #C7c7c7 1px;
+  text-align: center;
+}
+
+ .time {
+  margin-bottom: 15px;
+}
+
+.recent img {
+  border-radius: 360px;
+  height: auto;
+  width: 70px;
+}
+
+.members-text {
+  text-align: center;
+}
+
 
 /* ===============================================
 ================= MESSAGE FORM ===================
