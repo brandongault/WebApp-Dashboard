@@ -171,16 +171,12 @@
 /* ===============================================
 ================= GRAPHS SECTION =================
 =============================================== */
-.traffic {
 
-}
-
-.traffic-header {
-
-}
-
-.traffic-header h3 {
-  font-size: 18px;
+.traffic-header h3,
+.daily h3,
+.mobile h3,
+.social-container h3 {
+  font-size: 15px;
   margin: 10px;
 }
 
@@ -204,10 +200,105 @@
   color:white;
 }
 
+/*--------------CHART BORDERS--------------*/
+.traffic,
+.daily,
+.mobile {
+  padding: 15px;
+  border-top: solid #eaeaea;
+  border-width: 100%;
+}
+
+/* ===============================================
+================ SOCIAL STATS ====================
+=============================================== */
+
+.social-container {
+  padding: 15px;
+  border-top: solid #eaeaea;
+  border-width: 100%;
+}
+
+.social-container h3 {
+  font-weight: 550;
+  margin: 5px;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.facebook-container,
+.instagram-container,
+.twitter-container {
+  background-color: #eaeaea;
+  border: solid #C7c7c7 1px;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+  fill: white;
+}
+
+.facebook-image,
+.instagram-image,
+.twitter-image {
+
+}
+
+.facebook-text,
+.instagram-text,
+.twitter-text {
+      color:  #7874c4;
+    }
+
 /* ===============================================
 ================ MEMBERS SECTION =================
 =============================================== */
 
+.members {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.members h3 {
+  border-top: solid #C7c7c7 1px;
+  padding-top: 10px;
+  width: 100%;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.member-1,
+.member-2,
+.member-3,
+.member-4 {
+  justify-content: space-around;
+  flex-grow: 1;
+  margin:10px;
+  border-bottom: solid #C7c7c7 1px;
+  text-align: center;
+}
+
+ .member-date {
+  margin-bottom: 15px;
+}
+
+.members img {
+  border-radius: 360px;
+  height: auto;
+  width: 70px;
+}
+
+.members-text {
+  text-align: center;
+}
+
+.members-text a {
+  color: #7874c4;
+}
 
 /* ===============================================
 ================= MESSAGE FORM ===================
