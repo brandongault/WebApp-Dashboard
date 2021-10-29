@@ -164,7 +164,8 @@
 }
 
 .alert-banner-close {
-  margin-left: 40px;
+  display: flex;
+  margin-left: 30px;
 }
 
 /* ===============================================

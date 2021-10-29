@@ -25,7 +25,7 @@ alertBanner.addEventListener('click', e => {
 
 /*------------------------ LINE GRAPH ----------------------*/
 
-let trafficCanvas = getElementById("traffic-chart");
+let trafficCanvas = document.getElementById("traffic-chart");
 
 let trafficData = {
   labels: ["16-22", "23-29", "30-5", "6-12", "13-19", "20-26",
@@ -40,7 +40,7 @@ let trafficData = {
 
 let trafficOptions = {
   backgroundColor: 'rgba(112, 104, 201, .5)',
-  fill: true;
+  fill: true,
   aspectRatio: 2.5,
   animation: {
       duration: 0
