@@ -416,8 +416,13 @@ textarea::placeholder {
   height: 300px;
 }
 
-.button1 {
-  width: 30%;
+.settings h3 {
+  border-top: solid #C7c7c7 1px;
+  padding-top: 15px;
+}
+
+.button1 span a {
+  height: 50px;
 }
 
 .form-field {
@@ -431,6 +436,15 @@ textarea::placeholder {
   font-size: 15px;
 }
 
+.switch-toggle a {
+}
+
+.switch-toggle span span {
+}
+
+.settings-button {
+  display: inline-flex;
+}
 
 /* ===============================================
 ==================== MEDIA QUERIES ===============
