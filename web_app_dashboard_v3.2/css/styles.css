@@ -76,6 +76,7 @@
   height: 20px;
   width: auto;
   margin-left: 10px;
+  margin-bottom: 15px;
   transition: transform .2s;
 }
 
@@ -101,7 +102,8 @@
 .navbar-icons {
   display: flex;
   justify-content: space-around;
-  margin: 10px;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .icon-home {
@@ -113,13 +115,11 @@
 .icon-chart {
   height: 30px;
   width: auto;
-
 }
 
 .icon-members {
   height: 30px;
   width: auto;
-
 }
 
 .icon-settings {
@@ -231,6 +231,7 @@
 .facebook-container,
 .instagram-container,
 .twitter-container {
+  display: flex;
   background-color: #eaeaea;
   border: solid #C7c7c7 1px;
   border-radius: 5px;
@@ -239,9 +240,11 @@
 }
 
 svg {
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   fill: white;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 circle {
@@ -253,14 +256,25 @@ circle {
 .facebook-image,
 .instagram-image,
 .twitter-image {
-
+  background-color: #7874c4;
+  border-radius: 360px;
+  height: 80px;
+  width: 80px;
 }
 
-.facebook-text,
-.instagram-text,
-.twitter-text {
-      color:  #7874c4;
-    }
+.social-text {
+  margin: auto;
+}
+
+.logo {
+  color: #7874c4;
+  font-size: 20px;
+}
+
+.number {
+  font-size: 35px;
+  color: #777777;
+}
 
 /* ===============================================
 ================ MEMBERS SECTION =================
@@ -419,7 +433,6 @@ textarea::placeholder {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  height: 300px;
 }
 
 .settings h3 {
@@ -431,11 +444,16 @@ textarea::placeholder {
   height: 50px;
   background-color: #eaeaea;
   border-radius: 5px;
-  width: 95%;
+  width: 100%;
   align-self: center;
+  margin-top: 30px;
   margin-bottom: 20px;
   border: solid #C7c7c7 1px;
   font-size: 15px;
+}
+
+#notification-space {
+  margin-top: 10px;
 }
 
 .switch-ios.switch-light input:checked ~ span {
@@ -444,11 +462,46 @@ textarea::placeholder {
 }
 
 .switch-ios.switch-light {
-  width: 115px;
+  display: flex;
+  align-items: center;
+}
+
+.switch-ios.switch-light p {
+  flex-basis: 210px;
+}
+
+.switch-ios.switch-light > span {
+  flex-basis: 115px;
 }
 
 .switch-ios.switch-light input:checked ~ span a {
   border-color: #C7c7c7;
+}
+
+.settings-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button-secondary {
+  background-color: #7874c4;
+  color: white;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+#save {
+  margin-right: 10px;
+}
+
+#cancel {
+  background-color: #C7c7c7;
+  margin-left: 10px;
 }
 
 /* ===============================================
