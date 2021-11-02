@@ -401,16 +401,8 @@ form {
   margin-bottom: 20px;
 }
 
-input {
-  height: 50px;
-}
-
 textarea {
   height: 150px;
-}
-
-input,
-textarea {
   background-color: #eaeaea;
   border-radius: 5px;
   width: 95%;
@@ -445,6 +437,11 @@ textarea::placeholder {
   border-bottom: solid #C7c7c7 1px;
 }
 
+#userField {
+  height: 50px;
+  width: 95%;
+}
+
 /* ===============================================
 ================ SETTINGS SECTION ================
 =============================================== */
@@ -452,7 +449,6 @@ textarea::placeholder {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .settings h3 {
@@ -575,7 +571,7 @@ textarea::placeholder {
 
   /*================== NAV ======================*/
 .navbar-icons {
-
+  flex-direction: column;
 }
 
 .alert-banner {
@@ -586,10 +582,12 @@ textarea::placeholder {
   /*================== GRAPHS SECTION ===========*/
 
   /*================== MEMBERS SECTION ==========*/
-
+  
   /*================== MESSAGE FORM =============*/
 
   /*================== SETTINGS SECTION =========*/
+
+
 }
 
 @media (min-width: 1024px) {
