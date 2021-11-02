@@ -531,7 +531,7 @@ textarea::placeholder {
 @media (min-width: 768px) {
 
   .grid-container {
-    grid-template-columns: 55px 1fr;
+    grid-template-columns: 80px 1fr;
     grid-template-areas:
         "header header"
         "navigation main";
