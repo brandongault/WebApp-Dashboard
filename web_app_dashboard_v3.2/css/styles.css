@@ -182,12 +182,14 @@
   border-radius: 5px;
   padding: auto;
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .alert-banner-close {
   display: flex;
-  margin-left: 30px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
 }
 
 /* ===============================================
@@ -592,12 +594,6 @@ textarea::placeholder {
 
   /*================== MAIN =====================*/
 
-.alert-banner{
-}
-
-.alert-banner-close {
-
-}
 
   /*================== GRAPHS SECTION ===========*/
 
