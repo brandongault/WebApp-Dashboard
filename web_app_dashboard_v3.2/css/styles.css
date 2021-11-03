@@ -323,6 +323,7 @@ circle {
   margin:10px;
   border-bottom: solid #C7c7c7 1px;
   text-align: center;
+  flex-basis: 100%;
 }
 
 .member-4 {
@@ -373,6 +374,7 @@ circle {
   margin:10px;
   border-bottom: solid #C7c7c7 1px;
   text-align: center;
+  flex-basis: 100%;
 }
 
  .time {
@@ -624,7 +626,6 @@ textarea::placeholder {
   /*================== MEMBERS SECTION ==========*/
 
 .members {
-
 }
 
 .members-text {
@@ -640,7 +641,6 @@ textarea::placeholder {
 .member-3,
 .member-4  {
   text-align: left;
-  align
 }
 
 .recent-1,
