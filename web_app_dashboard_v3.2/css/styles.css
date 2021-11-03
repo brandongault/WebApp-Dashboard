@@ -318,7 +318,7 @@ circle {
 .member-2,
 .member-3,
 .member-4 {
-  justify-content: space-around;
+  justify-content: space-between;
   flex-grow: 1;
   margin:10px;
   border-bottom: solid #C7c7c7 1px;
@@ -369,7 +369,7 @@ circle {
 .recent-2,
 .recent-3,
 .recent-4 {
-  justify-content: space-around;
+  justify-content: space-between;
   flex-grow: 1;
   margin:10px;
   border-bottom: solid #C7c7c7 1px;
@@ -614,7 +614,7 @@ textarea::placeholder {
 
 .social-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .facebook-container,
@@ -623,9 +623,23 @@ textarea::placeholder {
   text-align: left;
 }
 
+.something {
+  display: flex;
+  align-items: center;
+}
+
   /*================== MEMBERS SECTION ==========*/
 
 .members {
+}
+
+.members-left-content {
+  display: flex;
+  align-items: center;
+}
+
+.members img {
+  margin-right: 20px;
 }
 
 .members-text {
@@ -650,6 +664,9 @@ textarea::placeholder {
   text-align: left;
 }
 
+.recent img {
+  margin-right: 20px;
+}
   /*================== MESSAGE FORM =============*/
 
   /*================== SETTINGS SECTION =========*/
