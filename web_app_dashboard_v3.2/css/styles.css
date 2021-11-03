@@ -612,15 +612,20 @@ textarea::placeholder {
 
   /*=============== SOCIAL SECTION ==========*/
 
-.social-container {
-  display: flex;
-  justify-content: space-around;
-}
-
 .facebook-container,
 .instagram-container,
 .twitter-container {
   text-align: left;
+}
+
+.social-box-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-text {
+  margin-left: 15px;
+  padding-left: 15px;
 }
 
   /*================== MEMBERS SECTION ==========*/
@@ -651,6 +656,7 @@ textarea::placeholder {
 .member-4  {
   display: flex;
   align-items: center;
+  margin-bottom:
 }
 
 .recent-1,
