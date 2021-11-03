@@ -649,19 +649,26 @@ textarea::placeholder {
 .member-2,
 .member-3,
 .member-4  {
-  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .recent-1,
 .recent-2,
 .recent-3,
 .recent-4 {
-  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .recent img {
   margin-right: 20px;
 }
+
+.time {
+  flex-wrap: nowrap;
+}
+
   /*================== MESSAGE FORM =============*/
 
   /*================== SETTINGS SECTION =========*/
