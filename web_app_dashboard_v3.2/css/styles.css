@@ -211,7 +211,6 @@
 
 .traffic-nav li {
   padding: 10px;
-  font-size: px;
 }
 
 .traffic-nav-link {
@@ -606,9 +605,18 @@ textarea::placeholder {
   margin: 20px;
 }
 
-.traffic-nav {
-  justify-content: flex-end;
+.traffic-header {
+  display: flex;
+  justify-content: space-between;
 }
+
+.traffic-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
 
   /*=============== SOCIAL SECTION ==========*/
 
