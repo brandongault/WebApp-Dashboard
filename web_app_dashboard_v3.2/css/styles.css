@@ -614,18 +614,13 @@ textarea::placeholder {
 
 .social-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .facebook-container,
 .instagram-container,
 .twitter-container {
   text-align: left;
-}
-
-.something {
-  display: flex;
-  align-items: center;
 }
 
   /*================== MEMBERS SECTION ==========*/
