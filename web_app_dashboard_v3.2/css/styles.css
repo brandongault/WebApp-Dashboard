@@ -182,6 +182,7 @@
   border-radius: 5px;
   padding: auto;
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .alert-banner-close {
@@ -449,6 +450,7 @@ textarea::placeholder {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  margin: 15px;
 }
 
 .settings h3 {
@@ -563,26 +565,91 @@ textarea::placeholder {
     width: 45vw;
   }
 
-}
-
-  /*================== BASE =====================*/
 
   /*================== HEADER ===================*/
+  .header-name {
+    margin-right: 20px;
+  }
+
 
   /*================== NAV ======================*/
+.navbar {
+  justify-content: space-around;
+}
+
 .navbar-icons {
   flex-direction: column;
 }
 
-.alert-banner {
+.icon-home,
+.icon-chart,
+.icon-members,
+.icon-settings {
+  margin: 0px;
+  margin-top: 30px;
+}
+
+  /*================== MAIN =====================*/
+
+.alert-banner{
+}
+
+.alert-banner-close {
 
 }
-  /*================== MAIN =====================*/
 
   /*================== GRAPHS SECTION ===========*/
 
+#traffic-chart {
+  margin: 20px;
+}
+
+.traffic-nav {
+  justify-content: flex-end;
+}
+
+  /*=============== SOCIAL SECTION ==========*/
+
+.social-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.facebook-container,
+.instagram-container,
+.twitter-container {
+  text-align: left;
+}
+
   /*================== MEMBERS SECTION ==========*/
-  
+
+.members {
+
+}
+
+.members-text {
+  text-align: left;
+}
+
+.member-date {
+  text-align: right;
+}
+
+.member-1,
+.member-2,
+.member-3,
+.member-4  {
+  text-align: left;
+  align
+}
+
+.recent-1,
+.recent-2,
+.recent-3,
+.recent-4 {
+  text-align: left;
+}
+
   /*================== MESSAGE FORM =============*/
 
   /*================== SETTINGS SECTION =========*/
