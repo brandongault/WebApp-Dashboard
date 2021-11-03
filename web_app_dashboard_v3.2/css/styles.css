@@ -616,6 +616,9 @@ textarea::placeholder {
   align-items: flex-end;
 }
 
+.dual-graph {
+  display: flex;
+}
 
 
   /*=============== SOCIAL SECTION ==========*/
