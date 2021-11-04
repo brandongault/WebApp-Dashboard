@@ -41,12 +41,6 @@
   grid-area: main;
   display: flex;
 }
-
-.widget-container-full,
-.widget-container-half {
-  width: 95vw;
-}
-
 /* ===============================================
 =================== KEYFRAMES ====================
 =============================================== */
@@ -536,6 +530,17 @@ textarea::placeholder {
 ===============================================*/
 
 @media (min-width: 768px) {
+  canvas {
+    max-width: 100%;
+  }
+
+  .dual-graph > section {
+    flex-basis: 50%;
+  }
+
+  .number {
+    font-size: 24px;
+  }
 
   .grid-container {
     grid-template-columns: 80px 1fr;
@@ -544,46 +549,15 @@ textarea::placeholder {
         "navigation main";
   }
 
-  .main {
+  main {
     display: grid;
-    grid-template-columns: 50%;
   }
-
-  .traffic,
-  .social-container {
-    grid-column: 1 / span 2;
-  }
-
-  .daily,
-  .members,
-  .message {
-    grid-column: 1 / span 1;
-  }
-
-  .mobile,
-  .activity,
-  .settings {
-    grid-column: 2 / span 1;
-  }
-
-  .widget-container-full {
-    width: 90vw;
-    margin: 15px;
-  }
-
-  .widget-container-half {
-    width: 40vw;
-  }
-
 
   /*================== HEADER ===================*/
-.header {
-  width: 100%;
-}
+  .header-name {
+    margin-right: 20px;
+  }
 
-.header-name {
-  margin-right: 50px;
-}
 
   /*================== NAV ======================*/
 .navbar {
@@ -603,9 +577,7 @@ textarea::placeholder {
 }
 
   /*================== MAIN =====================*/
-.alert-banner {
-  width: 87vw;
-}
+
 
   /*================== GRAPHS SECTION ===========*/
 
@@ -616,7 +588,6 @@ textarea::placeholder {
 .traffic-header {
   display: flex;
   justify-content: space-between;
-  width: 90vw;
 }
 
 .traffic-nav {
@@ -627,37 +598,31 @@ textarea::placeholder {
 
 .dual-graph {
   display: flex;
-  margin: 10px;
-  margin-bottom: -4px;
-}
-
-.mobile {
-  border-left: solid #eaeaea 2px;
 }
 
 
   /*=============== SOCIAL SECTION ==========*/
 
+.social-box-container {
+  display: flex;
+
+}
+
 .facebook-container,
 .instagram-container,
 .twitter-container {
   text-align: left;
-}
-
-.social-box-container {
-  display: flex;
-  justify-content: space-around;
+  flex-grow: 1;
+  margin: 10px;
 }
 
 .social-text {
   margin-left: 15px;
-  padding-left: 15px;
 }
 
   /*================== MEMBERS SECTION ==========*/
 
 .members {
-  width: 87vw;
 }
 
 .members-left-content {
@@ -683,11 +648,6 @@ textarea::placeholder {
 .member-4  {
   display: flex;
   align-items: center;
-  margin-bottom:
-}
-
-.recent {
-  width: 87vw;
 }
 
 .recent-1,
@@ -707,13 +667,6 @@ textarea::placeholder {
 }
 
   /*================== MESSAGE FORM =============*/
-.message {
-  width: 90vw;
-}
-
-.settings {
-  width: 86vw;
-}
 
   /*================== SETTINGS SECTION =========*/
 
@@ -722,19 +675,100 @@ textarea::placeholder {
 
 @media (min-width: 1024px) {
 
-/*================== BASE =====================*/
+  .desktop-members-recent > section {
+    flex-basis: 50%;
+  }
 
-/*================== HEADER ===================*/
+  .desktop-message-settings > section {
+    flex-basis: 50%;
+  }
 
-/*================== MAIN =====================*/
+/*============ MEMBERS / RECENT ACTIVITY ==========*/
 
-/*================== GRAPHS SECTION ===========*/
+.desktop-members-recent {
+  display: flex;
+  border-bottom: solid #C7c7c7 1px;
+  border-top: solid #C7c7c7 1px;
+}
 
-/*================== MEMBERS SECTION ==========*/
+.members {
+  border-right: solid #C7c7c7 1px;
+}
 
-/*================== MESSAGE FORM =============*/
+.members h3,
+.recent h3 {
+  border: none;
+}
 
-/*================== SETTINGS SECTION =========*/
+.member-left-content {
+  margin-bottom: 10px;
+}
+
+.recent-4,
+.member-4 {
+  border:none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.members-left-content img {
+  margin-bottom: 10px;
+}
+
+/*=========== MESSAGE FORM / SETTINGS =============*/
+
+.desktop-message-settings {
+  display: flex;
+}
+
+.message h3 {
+  margin-bottom: 0px;
+}
+
+.message {
+  border-right: solid #C7c7c7 1px;
+}
+
+.settings {
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-around;
+}
+
+.settings h3 {
+  border: none;
+  margin-bottom: 0px;
+  margin-top: -15px;
+}
+
+.switch-ios.switch-light {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+#timezone {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.settings-button {
+  margin-bottom: -5px;
+}
+
+#save {
+  margin-left: 20px;
+}
+
+#cancel {
+  margin-right: 20px;
+}
+
+
+
+
+
 
 }
 
