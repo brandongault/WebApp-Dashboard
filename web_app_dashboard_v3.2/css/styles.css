@@ -30,11 +30,10 @@
   color:white;
 }
 
-.navigaton {
-  grid-area: navigation;
+.navbar {
+  grid-area: nav;
   display: flex;
   justify-content: space-around;
-
 }
 
 .main {
@@ -49,6 +48,7 @@
 /* ===============================================
 ===================== HEADER =====================
 =============================================== */
+@media (min-width: 320px) {
 
 .header-title {
   font-size: 25px;
@@ -130,17 +130,19 @@
 .icon-home {
   height: 30px;
   width: auto;
-  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .icon-chart {
   height: 30px;
   width: auto;
+  margin-right: 10px;
 }
 
 .icon-members {
   height: 30px;
   width: auto;
+  margin-right: 10px;
 }
 
 .icon-settings {
@@ -522,6 +524,7 @@ textarea::placeholder {
   margin-left: 10px;
 }
 
+}
 /* ===============================================
 ==================== MEDIA QUERIES ===============
 ===============================================*/
@@ -543,7 +546,7 @@ textarea::placeholder {
     grid-template-columns: 80px 1fr;
     grid-template-areas:
         "header header"
-        "navigation main";
+        "nav main";
   }
 
   main {
@@ -558,11 +561,12 @@ textarea::placeholder {
 
   /*================== NAV ======================*/
 .navbar {
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .navbar-icons {
-  flex-direction: column;
+  display: flex;
 }
 
 .icon-home,
