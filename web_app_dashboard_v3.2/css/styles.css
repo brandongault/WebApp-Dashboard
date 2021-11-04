@@ -560,13 +560,11 @@ textarea::placeholder {
 
 
   /*================== NAV ======================*/
-.navbar {
-  flex-direction: column;
-  justify-content: flex-start;
-}
 
 .navbar-icons {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .icon-home,
