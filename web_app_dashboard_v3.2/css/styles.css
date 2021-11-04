@@ -180,7 +180,6 @@
   font-size: 15px;
   margin: 10px;
   border-radius: 5px;
-  padding: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -230,7 +229,6 @@
 .mobile {
   padding: 15px;
   border-top: solid #eaeaea;
-  border-width: 100%;
 }
 
 /* ===============================================
@@ -240,7 +238,6 @@
 .social-container {
   padding: 15px;
   border-top: solid #eaeaea;
-  border-width: 100%;
 }
 
 .social-container h3 {
