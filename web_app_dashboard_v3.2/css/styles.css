@@ -41,6 +41,12 @@
   grid-area: main;
   display: flex;
 }
+
+.widget-container-full,
+.widget-container-half {
+  width: 95vw;
+}
+
 /* ===============================================
 =================== KEYFRAMES ====================
 =============================================== */
@@ -487,7 +493,7 @@ textarea::placeholder {
   align-items: center;
 }
 
-.switch-ios.switch-light p {
+.switch-ios.switch-light strong {
   flex-basis: 210px;
 }
 
@@ -562,18 +568,22 @@ textarea::placeholder {
 
   .widget-container-full {
     width: 90vw;
+    margin: 15px;
   }
 
   .widget-container-half {
-    width: 45vw;
+    width: 40vw;
   }
 
 
   /*================== HEADER ===================*/
-  .header-name {
-    margin-right: 20px;
-  }
+.header {
+  width: 100%;
+}
 
+.header-name {
+  margin-right: 50px;
+}
 
   /*================== NAV ======================*/
 .navbar {
@@ -593,7 +603,9 @@ textarea::placeholder {
 }
 
   /*================== MAIN =====================*/
-
+.alert-banner {
+  width: 87vw;
+}
 
   /*================== GRAPHS SECTION ===========*/
 
@@ -604,6 +616,7 @@ textarea::placeholder {
 .traffic-header {
   display: flex;
   justify-content: space-between;
+  width: 90vw;
 }
 
 .traffic-nav {
@@ -614,6 +627,12 @@ textarea::placeholder {
 
 .dual-graph {
   display: flex;
+  margin: 10px;
+  margin-bottom: -4px;
+}
+
+.mobile {
+  border-left: solid #eaeaea 2px;
 }
 
 
@@ -638,6 +657,7 @@ textarea::placeholder {
   /*================== MEMBERS SECTION ==========*/
 
 .members {
+  width: 87vw;
 }
 
 .members-left-content {
@@ -666,6 +686,10 @@ textarea::placeholder {
   margin-bottom:
 }
 
+.recent {
+  width: 87vw;
+}
+
 .recent-1,
 .recent-2,
 .recent-3,
@@ -683,6 +707,13 @@ textarea::placeholder {
 }
 
   /*================== MESSAGE FORM =============*/
+.message {
+  width: 90vw;
+}
+
+.settings {
+  width: 86vw;
+}
 
   /*================== SETTINGS SECTION =========*/
 
